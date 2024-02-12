@@ -1,0 +1,69 @@
+
+
+/*created by online student .ie*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.2%;
+}
+
+.section-1{
+    max-width: 170rem;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+
+    background-color: #ffffff;
+
+    background-image: url(  https://img.freepik.com/free-vector/hand-painted-monochromatic-terrazzo-pattern_23-2148976377.jpg?w=996&t=st=1707724860~exp=1707725460~hmac=47719cfe945a1d2669f02f889df9fb16cdcccfdc8c8eeefd40b9be98fb96e444 );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.button-1{
+    background-color: #ff2a00;
+    padding: 1rem 5rem;
+    border: 2px solid white;
+    color: white;
+    font-size: 2.2rem;
+    cursor: pointer;
+    margin: auto;
+}
+
+.section-2 {
+	position: absolute;
+    inset: 0;
+    display: grid;
+    place-content: center;
+	padding: 1.5rem;
+	background-color: rgb(255, 255, 255);
+	transform: translateX(-100%);
+	transition: transform 1s; 
+
+    background-image: url( https://img.freepik.com/free-vector/hand-drawn-winter-landscape_23-2148723749.jpg?w=996&t=st=1707724405~exp=1707725005~hmac=8825456ea6d63ca97df320a7828a6ebb4af7c6dfb85b8b7f98b47c80098d55c2 );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-2.active {
+	transform: translateX(0);
+}
+
+.button-2{
+    background-color: #87481e;
+    padding: 1rem 5rem;
+    color: white;
+    font-size: 2.2rem;
+    cursor: pointer;
+    border: 2px solid white;
+}
